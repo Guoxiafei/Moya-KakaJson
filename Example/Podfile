@@ -1,0 +1,15 @@
+
+use_frameworks!
+platform :ios, '10.0'
+
+target 'Moya-KakaJson_Example' do
+  pod 'Moya-KakaJson', :path => '../'
+
+  pod 'RxDataSources', '~> 4.0'
+
+  target 'Moya-KakaJson_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Moya_KakaJson {
+  umbrella header "Moya-KakaJson-umbrella.h"
+
+  export *
+  module * { export * }
+}

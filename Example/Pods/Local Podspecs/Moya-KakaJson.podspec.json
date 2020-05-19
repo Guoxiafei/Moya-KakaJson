@@ -1,0 +1,30 @@
+{
+  "name": "Moya-KakaJson",
+  "version": "0.1.0",
+  "summary": "KakaJson bindings for Moya for easier JSON serialization. Includes RxSwift bindings as well.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Guoxiafei/Moya-KakaJson",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Guoxiafei": "guoxiafei1991@163.com"
+  },
+  "source": {
+    "git": "git@github.com:Guoxiafei/Moya-KakaJson.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Moya-KakaJson/Classes/**/*",
+  "dependencies": {
+    "Moya/RxSwift": [
+      "~> 14.0"
+    ],
+    "KakaJSON": [
+
+    ]
+  }
+}
