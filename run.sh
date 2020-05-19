@@ -12,7 +12,7 @@ git add .
 git commit -m "creat Moya-KakaJson"
 git pull
 git push origin master
-git tag 0.0.1
+git tag 0.0.2
 git push --tags
 
 #发布到git服务器
