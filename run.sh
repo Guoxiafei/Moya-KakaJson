@@ -11,9 +11,9 @@ pod lib lint --verbose --no-clean --allow-warnings Moya-KakaJson.podspec
 git add .
 git commit -m "creat Moya-KakaJson"
 git pull
-git push
+git push origin master
 git tag 0.0.1
-git push --tag
+git push --tags
 
 #发布到git服务器
 pod trunk push Moya-KakaJson.podspec --allow-warnings
